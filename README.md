@@ -1,2 +1,2 @@
-# Integrated <b>L</b>iblary
+# Integrated Components Liblary
 altium liblary
