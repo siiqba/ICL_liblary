@@ -1,0 +1,16 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=connectors_ITS.LibPkg
+[Project2]
+ProjectPath=GPS_GSM.LibPkg
+[Project3]
+ProjectPath=komponenty_ITS_v1.LibPkg
+[Project4]
+ProjectPath=mechanical_ITS_v1.LibPkg
+[Project5]
+ProjectPath=passives_ITS_v1.LibPkg
+[Project6]
+ProjectPath=PCB_production.LibPkg
+[Project7]
+ProjectPath=test_parts.LibPkg
