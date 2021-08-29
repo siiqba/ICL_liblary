@@ -1,2 +1,2 @@
-# lib_pcb_al_v1
+# Integrated <b>L</b>iblary
 altium liblary
