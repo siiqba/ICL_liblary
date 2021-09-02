@@ -14,3 +14,7 @@ ProjectPath=ICL_PCB_production.LibPkg
 ProjectPath=ICL_test_parts.LibPkg
 [Project7]
 ProjectPath=ICL_connectors_v1.LibPkg
+[Project8]
+ProjectPath=..\..\..\PROJEKTY\R2_D2\r2d2_quotation\projects\BLDC_driver\bldc_driver_v1\bldc_driver_v1.PrjMbd
+[Project9]
+ProjectPath=..\..\..\PROJEKTY\R2_D2\r2d2_quotation\projects\BLDC_driver\bldc_driver_v1\single_pcb\ppm_module_v1\ppm_module_v1.PrjPcb
