@@ -20,3 +20,5 @@ ProjectPath=..\..\..\PROJEKTY\R2_D2\r2d2_quotation\projects\BLDC_driver\bldc_dri
 ProjectPath=..\..\..\PROJEKTY\R2_D2\r2d2_quotation\projects\BLDC_driver\bldc_driver_v1\single_pcb\ppm_module_v1\ppm_module_v1.PrjPcb
 [Project10]
 ProjectPath=..\KomponentyMechaniczne.LibPkg
+[Project11]
+ProjectPath=..\..\..\PROJEKTY\DIEHL\MieleOkap_Q1\MieleHood_Q1\MieleHood_Q1.PrjPcb
