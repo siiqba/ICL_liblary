@@ -22,3 +22,7 @@ ProjectPath=..\..\..\PROJEKTY\R2_D2\r2d2_quotation\projects\BLDC_driver\bldc_dri
 ProjectPath=..\KomponentyMechaniczne.LibPkg
 [Project11]
 ProjectPath=..\..\..\PROJEKTY\DIEHL\MieleOkap_Q1\MieleHood_Q1\MieleHood_Q1.PrjPcb
+[Project12]
+ProjectPath=..\..\..\PROJEKTY\IT_SAFETY\grant_rozliczenie\etap2\altium\fence_guard_ex_distance_RAP_sampleC\fence_guard_ex_distance_v1.PrjPcb
+[Project13]
+ProjectPath=..\..\..\PROJEKTY\IT_SAFETY\grant_rozliczenie\etap2\altium\modul_pogodowy_sC\modul_pogodowy_sC\modul_pogodowy_sC.PrjPcb
