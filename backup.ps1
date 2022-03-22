@@ -1,4 +1,4 @@
-$files_to_backup = "D:\!!HERA\Biblioteki\ProtelDXP\ICL_liblary"
+$files_to_backup = "D:\HERA\ProtelDXP\ICL_liblary"
 
 $backap_location = "X:\ICL_liblary"
 
