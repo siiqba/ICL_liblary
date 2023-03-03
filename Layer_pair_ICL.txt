@@ -1,11 +1,77 @@
 SMD Montarz:		M11-12_SMOT
 SMD Description:	M13-14_SDES
-Orgin:				M15-16_orgin
+SMD Orgin:			M15-16_SORG
+THT Orgin:			M25-26_TORG
 THT Description:	M17-18_TDES
 THT Montarz:		M19-20_TMOT
-3D:					M21_3D
+SMD 3D:				M21-22_S3D
+THT 3D:				M23-24_T3D
+FREE 3D:			M31-32_F3D
+PCB instruction:	M30_PCBD
+
+Project Sch:
+=ProjectAuthor
+=ProjectCheckBy
+=ProjectDate
+=ProjectTitle
+=ProjectVersion
+
+
+
+Project parameters:
+'.pcbCoreMaterial'
+'.pcbPrepregMaterial'
+'.pcbThickness'
+'.pcbCopperThickness'
+'.pcbLayers'
+'.pcbTopDescription'
+'.pcbBottomDescription'
+'.pcbTopSoldermask'
+'.pcbBottomSoldermask'
+'.pcbSeparationMethod'
+'.pcbSingleBoardSize'
+'.pcbPanelSize'
+
+'.pcbGerberFolder'
+'.pcbGerberFileName'
+'.pcbGerberTopOverlay'
+'.pcbGerberTopSolder'
+'.pcbGerberTop'
+'.pcbGerberMid1'
+'.pcbGerberMid2'
+'.pcbGerberMid3'
+'.pcbGerberMid4'
+'.pcbGerberBottom'
+'.pcbGerberBottomSolder'
+'.pcbGerberBottomOverlay'
+
+'.pcbGerberSingleBoardOutline'
+'.pcbGerberPanelOutline'
+'.pcbGerberMilling1'
+'.pcbGerberMilling2'
+
+'.pcbCutter1'
+'.pcbCutter2'
+'.pcbMilling1Description'
+'.pcbMilling2Description'
+
+'.pcbNCDrillFolder'
+'.pcbNCDrillPlatedRoundHoles'
+'.pcbNCDrillNonPlatedRoundHoles'
+'.pcbNCDrillPlatedSlotHoles'
+'.pcbNCDrillNonPlatedSlotHoles'
 
 Usfule filters:
 OnLayer('Mechanical 11') or OnLayer('Mechanical 13')
 
 (ObjectKind = 'Pad') And (Layer = 'MultiLayer') And (Component = 'Free')
+
+OnLayer('Bottom M13-14_SDES') or OnLayer('Bottom M11-12_SMOT')
+OnLayer('Top M13-14_SDES') or OnLayer('Top M11-12_SMOT')
+OnLayer('Bottom M17-18_TDES') or OnLayer('Bottom M19-20_TMOT')
+OnLayer('Top M17-18_TDES') or OnLayer('Top M19-20_TMOT')
+OnLayer('Top Overlay') or OnLayer('Top Layer')
+
+OnLayer('Top M15-16_orgin')
+OnLayer('Bottom M15-16_orgin')
+
